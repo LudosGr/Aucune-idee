@@ -1,9 +1,9 @@
 *{
     margin: 0;
-    overflow-x: hidden;
 }
 body{
     background: #19f3fb30;
+    transition: 0.8s ease;
 }
 header{
     width: 100%;
@@ -31,6 +31,33 @@ header input{
     height: 4vh;
     border-radius: 10px;
     color: #A63A31;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 0;
+    height: 100vh;
+    transform: translate(-20vw);
+    transition: 0.8s ease;
+    position: fixed;
+    top: 0;
+}
+
+.navlink{
+    text-decoration: none;
+    font-size: 2em;
+    transition: 0.8s ease;
+}
+
+.navlink:hover{
+    transform: scale(1.1);
+}
+
+button{
+    margin: 20px;
 }
 main input{
     margin: 5px;
