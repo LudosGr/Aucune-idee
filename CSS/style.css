@@ -57,7 +57,7 @@ header input:hover{
 nav{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     overflow: hidden;
     width: 0;
@@ -67,19 +67,38 @@ nav{
     position: fixed;
     top: 0;
 }
-
 .navlink{
     text-decoration: none;
     font-size: 2em;
     transition: 0.8s ease;
+    color: #A63A31;
 }
 
 .navlink:hover{
     transform: scale(1.1);
 }
-
+.crossleave{
+    position: relative;
+    left: 40%;
+    color: #A63A31;
+}
 button{
     margin: 20px;
+    background: #13B0F5;
+    border: none;
+    color: #A63A31;
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 2px 1px #A63A31;
+}
+nav input{
+    background: #13B0F5;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 2px 1px black;
 }
 main{
     padding: 30px;
