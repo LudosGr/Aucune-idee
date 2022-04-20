@@ -1,41 +1,124 @@
 @import "../CSS/style.css";
 
-.photoactu{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
 main{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
     border: 2px solid red;
 }
+
+/*  flipcard 1 */
+.flipcard{
+    border: 2px solid black;
+    margin-left: 5%;
+    width: 400px;
+    height: 520px;
+    align-items: center;
+}
+
+.incard{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    transition: all 0.8s ease;
+    transform-style: preserve-3d;
+}
+
+.frontcard .port1{
+    color: black;
+    border: 2px solid blue;
+    width: 100%;
+    margin-left: -0.4%;
+}
+.backcard{
+    margin-top: -130%;
+    transform: rotateY(180deg);   
+}
+
+.backcard .port3{
+    width: 100%;
+    height: 100%;
+}
+
+.frontcard, .backcard{
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+.flipcard:hover .incard{
+    transform: rotateY(180deg);
+    transition: all 1.5s ease-in-out;
+}
+
+/* 1er block */
 .photoactu{
-    display: grid;
     grid-area: 1 / 1 / 2 / 3;
     width: 100%;
+    height: 550px;
     margin-top: 3%;
-    margin-bottom: 3%;
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     background: #12CDD4;
     justify-content: space-around;
-}
-
-.port1{
-    border: 2px solid blue;
-    width: 30%;
+    flex-direction: row;
+    align-items: flex-start;
 }
 
 .texteport1{
     border: 2px solid blue;
     width: 50%;
-    height: 500px;
     text-align: center;
-    align-content: center;
+    margin-left: 40%;
+    margin-top: -15%;
 }
+
+/*  flipcard 1 */
+.flipcard2{
+    border: 2px solid black;
+    width: 700px;
+    height: 600px;
+    align-items: center;
+}
+
+.incard2{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    transition: all 0.8s ease;
+    transform-style: preserve-3d;
+}
+
+.frontcard2 .portfilet{
+    color: black;
+    border: 2px solid blue;
+    width: 100%;
+    height: 100%;
+}
+.backcard2{
+    margin-top: -60%;
+    transform: rotateY(180deg);   
+}
+
+.backcard2 .port4{
+    margin-top: -25.8%;
+    width: 100%;
+    height: 100%;
+}
+
+.frontcard2, .backcard2{
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+.flipcard2:hover .incard2{
+    transform: rotateY(180deg);
+    transition: all 1.5s ease-in-out;
+}
+/* 2eme block */
 .photoactu2{
     grid-area:  2 / 1 / 3 / 3;
     width: 100%;
@@ -48,9 +131,9 @@ main{
     justify-content: space-around;
 }
 
-.port2{
+.portfilet{
     border: 2px solid blue;
-    width: 30%;
+    width: 50%;
     height: 50%;
 }
 
@@ -58,7 +141,33 @@ main{
     display: flex;
     border: 2px solid blue;
     width: 30%;
-    height: 20%;
+    height: 687px;
+    text-align: center;
+    justify-content: center;
+}
+.photoactu3{
+    grid-area: 3 / 1 / 4 / 3;
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #12CDD4;
+    justify-content: space-around;
+}
+
+.fresque1{
+    border: 2px solid blue;
+    width: 50%;
+    height: 50%;
+}
+
+.textefresque1{
+    display: flex;
+    border: 2px solid blue;
+    width: 30%;
+    height: 687px;
     text-align: center;
     justify-content: center;
 }
