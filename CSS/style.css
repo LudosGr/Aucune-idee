@@ -67,6 +67,7 @@ nav{
     position: fixed;
     top: 0;
     background: #058387;
+    height: 100%;
 }
 .navlink{
     text-decoration: none;
