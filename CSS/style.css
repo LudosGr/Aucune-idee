@@ -66,16 +66,19 @@ nav{
     transition: 0.8s ease;
     position: fixed;
     top: 0;
+    background: #058387;
 }
 .navlink{
     text-decoration: none;
     font-size: 2em;
     transition: 0.8s ease;
     color: #A63A31;
+
 }
 
 .navlink:hover{
     transform: scale(1.1);
+    color: #2EF8FF;
 }
 .crossleave{
     position: relative;
@@ -89,16 +92,35 @@ button{
     color: #A63A31;
     width: 100px;
     height: 30px;
-    border-radius: 25px;
+    border-radius: 10px;
     box-shadow: 1px 1px 2px 1px #A63A31;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+button:hover{
+    background: #872318;
+    color: #2EF8FF;
+    transition: all 1s ease-in-out;
+    box-shadow: 3px 3px 3px #13B0F5;
+    transform: scale(1.1);
 }
 nav input{
     background: #13B0F5;
     border: none;
     width: 100px;
     height: 30px;
-    border-radius: 25px;
-    box-shadow: 1px 1px 2px 1px black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 1px #A63A31;
+    color: #A63A31;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+nav input:hover{
+    background: #872318;
+    color: #2EF8FF;
+    transition: all 1s ease-in-out;
+    box-shadow: 3px 3px 3px #13B0F5;
+    transform: scale(1.1);
 }
 main{
     padding: 30px;
@@ -111,19 +133,22 @@ main{
     background-color: #13B0F5;
     color: #872318;
     width: 10%;
-    border: 1.5px solid #A63A31;
+    border: none;
     border-radius: 10px;
     font-size: 1.5em;
     cursor: pointer;
     margin-top: 2%;
     margin-bottom: 2%;
+    box-shadow: 1px 1px 2px 1px #A63A31;
+    transition: all 1s ease-in-out;
 }
 
 .voirplus:hover{
     background: #872318;
-    color: white;
+    color: #2EF8FF;
     transition: all 1s ease-in-out;
     box-shadow: 3px 3px 3px #13B0F5;
+    transform: scale(1.1);
 }
 
 footer{
