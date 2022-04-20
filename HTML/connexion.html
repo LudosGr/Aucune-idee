@@ -11,12 +11,17 @@
 <body>
     <header>
         <a href="./index.html"><img src="../logo/logoprojetetaples.png" alt=""></a>
-        <a href="./index.html"><p>Accueil</p></a>
-        <a href="./actu.html"><p>Actualités</p></a>
-        <a href="#contct"><p>Contact</p></a>
-        <a href="./inscription.html"><input type="button" value="Inscription"></a>
-        <a href="./connexion.html"><input type="button" value="Connexion"></a>
     </header>
+    <button onclick="openNav()" class="button">Menu</button>
+    <nav id="nav">
+        <button class="button" onclick="closeNav()">Sésame ferme toi</button>
+        <a href="javascript:void(0)" onclick="closeNav()">⊠</a>
+        <a href="./index.html" class="navlink"><p>Accueil</p></a>
+        <a href="./actu.html" class="navlink"><p>Actualités</p></a>
+        <a href="#contct" class="navlink"><p>Contact</p></a>
+        <a href="./inscription.html" class="navlink"><input type="button" value="Inscription"></a>
+        <a href="./connexion.html" class="navlink"><input type="button" value="Connexion"></a>
+    </nav>
 
     <main>
         <div class="formulaire">
@@ -41,4 +46,5 @@
     </footer>
 
 </body>
+<script src="../JS/function.js"></script>
 </html>
