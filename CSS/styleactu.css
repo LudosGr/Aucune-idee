@@ -20,19 +20,19 @@ main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    background: #12CDD4;
     justify-content: space-around;
 }
 
 .port1{
     border: 2px solid blue;
-    grid-area:  2 / 1 / 1 / 1;
     width: 30%;
 }
 
 .texteport1{
     border: 2px solid blue;
-    grid-area: 1 / 2 / 2 / 3; 
     width: 50%;
+    height: 500px;
     text-align: center;
     align-content: center;
 }
@@ -44,6 +44,7 @@ main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    background: #12CDD4;
     justify-content: space-around;
 }
 
@@ -54,10 +55,12 @@ main{
 }
 
 .texteport3{
+    display: flex;
     border: 2px solid blue;
-    width: 40%;
+    width: 30%;
+    height: 20%;
     text-align: center;
-    align-content: center;
+    justify-content: center;
 }
 
 
