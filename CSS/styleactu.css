@@ -1,38 +1,19 @@
-*{
-    margin: 0;
-}
-body{
-    background: #19f3fb30;
-    transition: 0.8s ease;
-}
-header{
-    width: 100%;
-    height: 20vh;
-    background: #058387;
+@import "../CSS/style.css";
+
+.photoactu{
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
     align-items: center;
 }
-header img{
-    width: 100px;
-    border-radius: 50%;
-}
-header a{
-    text-decoration: none;
-}
-header a p{
-    color: #A63A31;
-    font-size: 35px;
-}
-header input{
-    background: #13B0F5;
-    border: #13B0F5;
-    width: 7vw;
-    height: 4vh;
-    border-radius: 10px;
-    color: #A63A31;
-}
 main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    border: 2px solid red;
+}
+.photoactu{
+    display: grid;
+    grid-area: 1 / 1 / 2 / 3;
     width: 100%;
     margin-top: 3%;
     margin-bottom: 3%;
@@ -41,27 +22,42 @@ main{
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.photoactu{
+
+.port1{
+    border: 2px solid blue;
+    grid-area:  2 / 1 / 1 / 1;
+    width: 30%;
+}
+
+.texteport1{
+    border: 2px solid blue;
+    grid-area: 1 / 2 / 2 / 3; 
+    width: 50%;
+    text-align: center;
+    align-content: center;
+}
+.photoactu2{
+    grid-area:  2 / 1 / 3 / 3;
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
     display: flex;
     flex-direction: row;
-    align-items: center;
-}
-footer{
-    width: 100%;
-    height: 30vh;
-    background: #058387;
-    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
 }
-footer img{
-    width: 100px;
+
+.port2{
+    border: 2px solid blue;
+    width: 30%;
+    height: 50%;
 }
-footer div{
-    width: 300px;
-    height: 200px;
-    background: #13B0F5;
+
+.texteport3{
+    border: 2px solid blue;
+    width: 40%;
+    text-align: center;
+    align-content: center;
 }
-.logo img{
-    border-radius: 50%;
-}
+
+
