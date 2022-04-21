@@ -75,7 +75,10 @@ nav{
     transition: 0.8s ease;
     color: #A63A31;
 }
-
+.meteo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .navlink:hover{
     transform: scale(1.1);
     color: #2EF8FF;
