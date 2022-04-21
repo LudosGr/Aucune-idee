@@ -74,7 +74,6 @@ nav{
     font-size: 2em;
     transition: 0.8s ease;
     color: #A63A31;
-
 }
 
 .navlink:hover{
@@ -97,6 +96,7 @@ button{
     box-shadow: 1px 1px 2px 1px #A63A31;
     cursor: pointer;
     transition: all 1s ease-in-out;
+    position: sticky;
 }
 button:hover{
     background: #872318;
@@ -108,13 +108,14 @@ button:hover{
 nav input{
     background: #13B0F5;
     border: none;
-    width: 100px;
+    width: 150px;
     height: 30px;
     border-radius: 10px;
     box-shadow: 1px 1px 2px 1px #A63A31;
     color: #A63A31;
     cursor: pointer;
     transition: all 1s ease-in-out;
+    font-size: 0.6em;
 }
 nav input:hover{
     background: #872318;

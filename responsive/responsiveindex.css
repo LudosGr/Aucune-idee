@@ -45,7 +45,7 @@
     }
     .navlink{
         text-decoration: none;
-        font-size: 1em;
+        font-size: 0.9em;
         transition: 0.8s ease;
         color: #A63A31;
     }
@@ -69,8 +69,8 @@
     nav input{
         background: #13B0F5;
         border: none;
-        width: 100px;
-        height: 30px;
+        width: 72px;
+        height: 20px;
         border-radius: 10px;
         box-shadow: 1px 1px 2px 1px #A63A31;
         color: #A63A31;
