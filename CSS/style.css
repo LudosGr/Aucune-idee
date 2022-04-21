@@ -20,7 +20,9 @@ header img{
 
 header img:hover{
     transition: all 1s ease-in-out;
-    transform: scale(1.08);
+    transform: scale(1.2);
+    box-shadow: 0px 5px 5px 0px white;
+    border: 2px solid black;
 }
 
 
