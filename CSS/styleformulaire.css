@@ -17,6 +17,14 @@ main input{
 }
 .bourinos{
     cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+.bourinos:hover{
+    background: #872318;
+    color: #2EF8FF;
+    transition: all 1s ease-in-out;
+    box-shadow: 3px 3px 3px #13B0F5;
+    transform: scale(1.1);
 }
 .text{
     width: 300px;
@@ -36,23 +44,4 @@ main input{
     border-radius: 25px;
     box-shadow: 3px 3px 4px 3px #A63A31;
     opacity: 0.5;
-}
-footer{
-    width: 100%;
-    height: 30vh;
-    background: #058387;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-footer img{
-    width: 100px;
-}
-footer div{
-    width: 300px;
-    height: 200px;
-    background: #13B0F5;
-}
-.logo img{
-    border-radius: 50%;
 }
