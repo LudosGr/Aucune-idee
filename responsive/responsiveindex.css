@@ -28,11 +28,77 @@
         border-radius: 10px;
         color: #A63A31;
     }
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        overflow: hidden;
+        width: 0;
+        height: 100vh;
+        transform: translate(-20vw);
+        transition: 0.8s ease;
+        position: fixed;
+        top: 0;
+        background: #058387;
+        height: 100%;
+    }
+    .navlink{
+        text-decoration: none;
+        font-size: 1em;
+        transition: 0.8s ease;
+        color: #A63A31;
+    }
+    .crossleave{
+        position: relative;
+        left: 30%;
+        color: #A63A31;
+    }
+    button{
+        margin: 20px;
+        background: #13B0F5;
+        border: none;
+        color: #A63A31;
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 2px 1px #A63A31;
+        cursor: pointer;
+        transition: all 1s ease-in-out;
+    }
+    nav input{
+        background: #13B0F5;
+        border: none;
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 2px 1px #A63A31;
+        color: #A63A31;
+        cursor: pointer;
+        transition: all 1s ease-in-out;
+    }
     main{
         padding: 30px;
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    iframe{
+        width: 300px;
+        height: 200px;
+    }
+    .voirplus{
+        background-color: #13B0F5;
+        color: #872318;
+        width: 15vh;
+        border: none;
+        border-radius: 10px;
+        font-size: 1em;
+        cursor: pointer;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        box-shadow: 1px 1px 2px 1px #A63A31;
+        transition: all 1s ease-in-out;
     }
     footer{
         width: 100%;
