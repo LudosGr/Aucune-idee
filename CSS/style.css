@@ -100,6 +100,17 @@ button{
     cursor: pointer;
     transition: all 1s ease-in-out;
     position: sticky;
+    animation: translate 2s alternate infinite;
+}
+
+@keyframes translate {
+    from{
+        transform: translate(20px);
+    }
+
+    to{
+        transform: translate(0px);
+    }
 }
 button:hover{
     background: #872318;
@@ -107,6 +118,7 @@ button:hover{
     transition: all 1s ease-in-out;
     box-shadow: 3px 3px 3px #13B0F5;
     transform: scale(1.1);
+    border-radius: 50px 0px 0px 50px;
 }
 nav input{
     background: #13B0F5;
