@@ -54,4 +54,92 @@
     .logo img{
         border-radius: 50%;
     }
+
+    /* contenu */
+    .flipcard{
+        height: 250px;
+        width: 314px;
+    }
+
+    .backcard{
+        margin-top: -80%;
+    }
+    .texteport1{
+        width: 95%;
+        height: 360px;
+        margin-top: 5%;
+        margin-left: 2%;
+        font-size: smaller;
+    }
+
+    .photoactu{
+        height: 656px;
+    }
+
+
+    /* 2ème block */
+
+    .flipcard2{
+        height: 250px;
+        width: 314px;
+        margin-top: 11.5%;
+    }
+
+    .backcard2{
+        margin-top: -55%;
+    }
+    .texteport3{
+        width: 95%;
+        height: 360px;
+        font-size: smaller;
+        margin-top: 1%;
+        margin-left: 2%;
+
+    }
+    .photoactu2{
+        height: 656px;
+    }
+
+    /* 3ème block */
+    .flipcard3{
+        height: 250px;
+        width: 314px;
+        margin-top: 11.5%;
+        margin-left: 0%;
+    }
+    .textefresque1{
+        width: 95%;
+        height: 360px;
+        font-size: smaller;
+        margin-top: 1%;
+        margin-left: 2%;
+
+    }
+    .photoactu3{
+        height: 656px;
+    }
+
+
+    /* 4ème block */
+    .flipcard4{
+        height: 250px;
+        width: 314px;
+        margin-top: 11.5%;
+        margin-left: 0%;
+    }
+
+    .backcard4{
+        margin-top: -55%;
+    }
+    .textepromenade{
+        width: 95%;
+        height: 360px;
+        font-size: smaller;
+        margin-top: 1%;
+        margin-left: 2%;
+
+    }
+    .photoactu4{
+        height: 656px;
+    }
 }

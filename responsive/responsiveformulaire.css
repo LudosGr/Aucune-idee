@@ -77,4 +77,12 @@
     .logo img{
         border-radius: 50%;
     }
+
+    .text{
+        font-size: 1.2em;
+    }
+
+    .bourinos{
+        font-size: 1.2em;
+    }
 }
