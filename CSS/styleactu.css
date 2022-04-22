@@ -33,6 +33,8 @@ main{
     width: 100%;
     height: 100%;
 }
+
+
 .backcard{
     margin-top: -85.8%;
     transform: rotateY(180deg);   
@@ -72,12 +74,10 @@ main{
 .texteport1{
     border: 2px solid blue;
     width: 59.7%;
-    height: 99%;
     text-align: center;
     margin-left: 40%;
-    margin-top: -32.5%;
+    margin-top: -20%;
 }
-
 /*  flipcard 2 */
 .flipcard2{
     width: 700px;
@@ -137,7 +137,8 @@ main{
 .texteport3{
     border: 2px solid blue;
     width: 50%;
-    height: 99%;
+    height: 20%;
+    margin-top: 15%;
     margin-left: -4%;
     text-align: center;
 }
@@ -164,6 +165,8 @@ main{
     border: 2px solid blue;
     width: 55%;
     text-align: center;
+    height: 20%;
+    margin-top: 15%;
 }
 
 /*  flipcard 3 */
@@ -282,4 +285,26 @@ main{
     transform: rotateY(180deg);
     transition: all 1.5s ease-in-out;
 }
+/*--------------------------------------------- Pour l'effet du hover cards-----------------------------------------*/
+/* effet hover pour la frontcard */
+.port1:hover, .portfilet:hover, .fresque1:hover, .promenade:hover{
+    box-shadow: 2px 0px 0px 2px #872318;
+    border-radius: 20%;
+}
 
+/* backcards */
+.port3, .port4, .fresque2, .promenade1{
+    box-shadow: 2px 0px 0px 2px #872318;
+    border-radius: 20%;
+}
+
+
+/*------------------------------------ Pour les différents blocks -------------------------------------------*/
+
+/* blocks */
+
+.photoactu:hover, .photoactu2:hover, .photoactu3:hover, .photoactu4:hover{
+box-shadow: 0px 0px 20px 0px #12CDD4;
+-webkit-box-shadow:0px 0px 22px 0px #12CDD4 ;
+-moz-box-shadow: 0px 0px 22px 0px #12CDD4;
+}
