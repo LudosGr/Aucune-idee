@@ -4,6 +4,7 @@
 body{
     background: #19f3fb30;
     transition: 0.8s ease;
+    z-index: -2;
 }
 header{
     width: 100%;
@@ -89,6 +90,10 @@ nav{
     position: relative;
     left: 40%;
     color: #A63A31;
+}
+.betterave{
+    position: relative;
+    left: -25%;
 }
 button{
     margin: 20px;
