@@ -169,6 +169,7 @@ iframe{
     margin-bottom: 2%;
     box-shadow: 1px 1px 2px 1px #A63A31;
     transition: all 1s ease-in-out;
+    position: relative;
 }
 
 .voirplus:hover{
@@ -193,14 +194,17 @@ footer img{
     width: 100px;
 }
 footer div.carre{
-    width: 300px;
+    width: 500px;
     height: 200px;
     background: #13B0F5;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
 }
 .logo img{
     border-radius: 50%;
 }
-
 .logo:hover{
     background-color: white;
     border-radius: 90% 90% 20% 20%;
