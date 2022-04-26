@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/restauration.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../responsive/responsiveindex.css">
+    <link rel="stylesheet" href="../CSS/galerie.css">
+    <title>Page d'accueuil</title>
+
 </head>
 <body>
     <header>
@@ -22,7 +25,27 @@
         <a href="./inscription.html" class="navlink button betterave"><input type="button" value="Inscription"></a>
         <a href="./connexion.html" class="navlink button betterave"><input type="button" value="Connexion"></a>
     </nav>
+
+    <main>
+        <h1>Etaples sur mer</h1>
+        <iframe style="z-index: 1000;" src="https://www.youtube.com/embed/VfijhLKyKqM?&autoplay=1"  frameborder="0"  allowfullscreen></iframe>
+        <input class="voirplus" type="button" value="Voir plus"> 
+        <div class="meteo">
+            <img src="../photofond/9ca89ad4245a82b5cc35202540c2ce56-removebg-preview.png" alt="" width="200">
+            <p>la meteo du jour (oui on doit encore faire ici)</p>
+        </div>
+
+        <form>
+
+            <input type="radio" name="fancy" autofocus value="clubs" id="clubs" />
+            <input type="radio" name="fancy" value="hearts" id="hearts" />
+            <input type="radio" name="fancy" value="spades" id="spades" />
+            <input type="radio" name="fancy" value="diamonds" id="diamonds" />			
+            <label for="clubs"><img src="../photorefaite/Photo entrée Office avec flou.jpg" height="100%" alt=""></label><label for="hearts"><img src="../photorefaite/Photo Office de tourisme.jpg" height="100%" alt=""></label><label for="spades"><img src="../photorefaite/Vue Port par le filet.jpg" height="100%" alt=""></label><label for="diamonds"><img src="../photorefaite/Photo entrée office de tourisme.jpg" height="100%" alt=""></label>
     
+        </form>
+    </main>
+
     <footer id="contct">
         <a href="./index.html" class="logo"><img src="../logo/logoprojetetaples.png" alt=""></a>
         <div>
@@ -42,6 +65,7 @@
             Du lundi au jeudi : 08h30-12h30/13h30-17h30<br />
             Le vendredi : 08h30-12h30/13h30-16h30</div>
     </footer>
+
 </body>
 <script src="../JS/function.js"></script>
 </html>
