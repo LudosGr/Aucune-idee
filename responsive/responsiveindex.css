@@ -67,8 +67,13 @@
         box-shadow: 1px 1px 2px 1px #A63A31;
         cursor: pointer;
         transition: all 1s ease-in-out;
+        position: sticky;
+        animation: translate 2s alternate infinite;
     }
-    nav input{
+    .mega-menu{
+        display: none;
+    }
+    .nav input{
         background: #13B0F5;
         border: none;
         width: 72px;

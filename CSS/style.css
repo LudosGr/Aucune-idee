@@ -17,13 +17,14 @@ header{
 header img{
     width: 100px;
     border-radius: 50%;
+    transition: all 1s ease-in-out;
+
 }
 
 header img:hover{
     transition: all 1s ease-in-out;
     transform: scale(1.2);
     box-shadow: 0px 5px 5px 0px white;
-    border: 2px solid black;
 }
 
 
@@ -58,6 +59,46 @@ header input:hover{
     box-shadow: 5px 5px 5px #13B0F5 inset;
 }
 
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    list-style: none;
+  }
+  
+  .mega-menu a {
+    display: block;
+    color: rgb(115, 255, 0);
+    text-decoration: none;
+  }
+  .mega-menu a:hover {
+    background: #2bff00;
+  }
+  
+  .mega-menu-main {
+    display: flex;
+    position: relative;
+    background: #058387;
+  }
+  
+  .lvl-0 > a {
+    padding: 12px 25px;
+  }
+  .lvl-0:hover > ul {
+    display: flex;
+  }
+  
+  @media screen and ( max-width:1200px ) {
+    .mega-menu-main {
+      flex-direction: column;
+    }
+    .mega-menu-tab {
+      flex-direction: column;
+      position: static;
+      padding-left: 30px;
+    }
+  }
 .meteo{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -75,6 +116,10 @@ header input:hover{
     position: relative;
     left: -25%;
 }
+#nav{
+    position: absolute;
+    left: -50vw;
+}
 button{
     margin: 20px;
     background: #13B0F5;
@@ -86,7 +131,8 @@ button{
     box-shadow: 1px 1px 2px 1px #A63A31;
     cursor: pointer;
     transition: all 1s ease-in-out;
-    position: sticky;
+    position: absolute;
+    left: -50vw;
     animation: translate 2s alternate infinite;
 }
 
