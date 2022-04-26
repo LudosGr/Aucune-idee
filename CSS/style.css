@@ -201,6 +201,9 @@ footer div.carre{
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
+    font-family: 'Open Sans' ;
+    font-weight: lighter;
+    color: #872318;
 }
 .logo img{
     border-radius: 50%;

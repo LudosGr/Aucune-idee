@@ -4,7 +4,7 @@
 /* pour la typographie des textes */
 
 .textefresque1, .texteport1, .texteport3, .textepromenade{
-    font-family: 'Open Sans' ;
+    font-family: 'Open Sans';
     font-weight: lighter;
 }
 main{
