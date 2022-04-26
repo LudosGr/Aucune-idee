@@ -55,15 +55,11 @@ input:nth-of-type(4):checked ~ label {
 }
 
 label {
-	background: #444;
+	background: #058387;
 	background-size: cover;
 	font-size: 3rem;
 }
 
-label[for="diamonds"],
-label[for="hearts"] {
-	background: #cc0000;
-}
 
 label:before,
 label:after {
