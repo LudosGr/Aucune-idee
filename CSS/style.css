@@ -57,27 +57,7 @@ header input:hover{
     transition: all 1s ease-in-out;
     box-shadow: 5px 5px 5px #13B0F5 inset;
 }
-nav{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    overflow: hidden;
-    width: 0;
-    height: 100vh;
-    transform: translate(-20vw);
-    transition: 0.8s ease;
-    position: fixed;
-    top: 0;
-    background: #058387;
-    height: 100%;
-}
-.navlink{
-    text-decoration: none;
-    font-size: 2em;
-    transition: 0.8s ease;
-    color: #A63A31;
-}
+
 .meteo{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -126,25 +106,6 @@ button:hover{
     box-shadow: 3px 3px 3px #13B0F5;
     transform: scale(1.1);
     border-radius: 50px 0px 0px 50px;
-}
-nav input{
-    background: #13B0F5;
-    border: none;
-    width: 150px;
-    height: 30px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 2px 1px #A63A31;
-    color: #A63A31;
-    cursor: pointer;
-    transition: all 1s ease-in-out;
-    font-size: 0.6em;
-}
-nav input:hover{
-    background: #872318;
-    color: #2EF8FF;
-    transition: all 1s ease-in-out;
-    box-shadow: 3px 3px 3px #13B0F5;
-    transform: scale(1.1);
 }
 main{
     padding: 30px;

@@ -1,0 +1,35 @@
+@import "../CSS/style.css";
+
+.button{
+    display: none;
+}
+
+.navlinkcrossleave{
+    display: none;
+}
+
+
+/* main */
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border: 2px solid red;
+}
+
+/* 1er block */
+.hotel1{
+    grid-area: 1 / 1 / 2 / 3;
+    border: 2px solid blue;
+}
+
+.hotel1photo{
+    height: 400px;
+    width: 350px;
+}
+
+.textehotel1{
+    background: #058387;
+    color: #872318;
+    width: 50%;
+}
