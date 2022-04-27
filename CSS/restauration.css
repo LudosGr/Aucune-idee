@@ -73,11 +73,11 @@ main{
 }
 
 .cercle2{
-    position: absolute;
+    position: relative;
     height: 350px;
     width: 350px;
-    margin-left: 11%;
-    margin-top: 10%;
+    left: 14%;
+    top: 14%;
     background-image: url(../photorefaite/Restoauxpécheursjpg.png);
     background-size: cover;
     border-radius: 500px;
