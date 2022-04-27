@@ -85,10 +85,9 @@ main{
     transition: all 1.5s ease-in-out;
 }
 
-.cercle2:hover{
+.flipcard1:hover .cercle2:hover{
     transform: rotate(360deg);
     background: url(../photorefaite/Restoauxpécheursjpg.png);
-    background-size: cover;
     box-shadow: 10px 0px 0px 10px grey inset;
 }
 
@@ -163,10 +162,11 @@ main{
     transition: all 1.5s ease-in-out;
 }
 .cercle4{
+    position: relative;
     height: 350px;
     width: 350px;
-    margin-left: 15%;
-    margin-top: 15%;
+    left: 14%;
+    top: 14%;
     background-image: url(../photorefaite/Resto\ planète\ océan.png);
     background-size: cover;
     border-radius: 500px;
@@ -174,7 +174,7 @@ main{
     transition: all 1.5s ease-in-out;
 }
 
-.cercle4:hover{
+.flipcard2:hover .cercle4{
     background: url(../photorefaite/Resto\ planète\ océan.png);
     transform: rotate(360deg);
     box-shadow: 10px 0px 0px 10px grey inset;
