@@ -1,5 +1,7 @@
 @import "../CSS/style.css";
 
+
+
 /* main */
 
 main{
@@ -7,6 +9,8 @@ main{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     border: 2px solid red;
+    background-image: url(../photorefaite/background\ resto.png);
+    background-size: cover;
 }
 /* 1er block */
 
@@ -74,6 +78,13 @@ main{
     background-size: cover;
     border-radius: 500px;
     border: 2px solid black;
+    transition: all 1.5s ease-in-out;
+}
+
+.cercle2:hover{
+    transform: rotate(360deg);
+    background: url(../photorefaite/Restoauxpécheursjpg.png);
+    box-shadow: 10px 0px 0px 10px grey inset;
 }
 .menuphoto1{
     height: 40%;
@@ -84,7 +95,6 @@ main{
 }
 
 .menuphoto1:hover{
-    
     box-shadow: 5px 0 0 5px black;
 }
 
@@ -99,6 +109,8 @@ main{
     width: 700px;
     height: 600px;
     align-items: center;
+    margin-left: 85%;
+    margin-top: -60%;
 }
 
 .incard2{
@@ -161,17 +173,17 @@ main{
     background-image: url(../photorefaite/Resto\ planète\ océan.png);
     background-size: cover;
     border-radius: 500px;
-    border: 2px solid black;
+    border: 2px solid black; 
+    transition: all 1.5s ease-in-out;
 }
 
 .cercle4:hover{
-    background: url(../photorefaite/Menu\ planète\ océan.png);
-    transition: all 1.5s ease-in-out;
+    background: white;
     transform: rotate(360deg);
+    box-shadow: 10px 0px 0px 10px grey inset;
 }
 .menuphoto2{
     width: 60%;
-    margin-top: 20%;
 }
 footer{
     position: relative;
