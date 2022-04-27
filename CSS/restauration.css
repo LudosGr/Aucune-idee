@@ -42,9 +42,12 @@ main{
     border-radius: 500px;
     border: 2px solid black;
     margin-left: 20%;
-    margin-top: 15%;
+    transition: all 2.5s ease-in-out;
 }
-
+ .frontcard1 .cercle1:hover{
+    transform: rotate(180deg);
+    box-shadow: 10px 0px 0px 10px grey;
+}
 .backcard1{
     margin-top: -85.8%;
     transform: rotateY(180deg);   
@@ -68,12 +71,13 @@ main{
     transform: rotateY(180deg);
     transition: all 1.5s ease-in-out;
 }
+
 .cercle2{
     position: absolute;
-    height: 300px;
-    width: 300px;
-    margin-left: 14%;
-    margin-top: 13%;
+    height: 350px;
+    width: 350px;
+    margin-left: 11%;
+    margin-top: 10%;
     background-image: url(../photorefaite/Restoauxpécheursjpg.png);
     background-size: cover;
     border-radius: 500px;
@@ -84,8 +88,11 @@ main{
 .cercle2:hover{
     transform: rotate(360deg);
     background: url(../photorefaite/Restoauxpécheursjpg.png);
+    background-size: cover;
     box-shadow: 10px 0px 0px 10px grey inset;
 }
+
+
 .menuphoto1{
     height: 40%;
     width: 40%;
@@ -95,7 +102,7 @@ main{
 }
 
 .menuphoto1:hover{
-    box-shadow: 5px 0 0 5px black;
+    box-shadow: 5px 10px 10px 5px #872318;
 }
 
 /* 2ème block */
@@ -155,16 +162,6 @@ main{
     transform: rotateY(180deg);
     transition: all 1.5s ease-in-out;
 }
-.cercle3{
-    background: white;
-    height: 500px;
-    width: 500px;
-    border-radius: 500px;
-    margin-left: 95%;
-    margin-top: -50%;
-    border: 2px solid black;
-}
-
 .cercle4{
     height: 350px;
     width: 350px;
@@ -178,12 +175,17 @@ main{
 }
 
 .cercle4:hover{
-    background: white;
+    background: url(../photorefaite/Resto\ planète\ océan.png);
     transform: rotate(360deg);
     box-shadow: 10px 0px 0px 10px grey inset;
 }
 .menuphoto2{
     width: 60%;
+    transition: all 1s ease-in-out;
+}
+
+.menuphoto2:hover{
+    box-shadow: 5px 10px 10px 5px #872318;
 }
 footer{
     position: relative;
