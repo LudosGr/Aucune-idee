@@ -19,7 +19,10 @@ main{
     height: 600px;
     align-items: center;
 }
+.port1{
+    box-shadow: 4px 4px 8px 4px #872318;
 
+}
 .incard{
     height: 100%;
     width: 100%;
@@ -92,7 +95,9 @@ main{
     transition: all 0.8s ease;
     transform-style: preserve-3d;
 }
-
+.portfilet{
+    box-shadow: 4px 4px 8px 4px #872318;
+}
 .frontcard2 .portfilet{
     color: black;
     width: 100%;
@@ -158,6 +163,7 @@ main{
 
 .fresque1{
     width: 50%;
+    box-shadow: 4px 4px 8px 4px #872318;
     height: 50%;
 }
 
@@ -267,7 +273,9 @@ main{
     margin-top: -60%;
     transform: rotateY(180deg);   
 }
-
+.promenade{
+    box-shadow: 4px 4px 8px 4px #872318;
+}
 .backcard4 .promenade1{
     margin-top: -25.8%;
     width: 100%;
@@ -288,14 +296,14 @@ main{
 /*--------------------------------------------- Pour l'effet du hover cards-----------------------------------------*/
 /* effet hover pour la frontcard */
 .port1:hover, .portfilet:hover, .fresque1:hover, .promenade:hover{
-    box-shadow: 2px 0px 0px 2px #872318;
+    box-shadow: 4px 4px 8px 4px #872318;
     transition: all 1s ease-in-out;
     border-radius: 20%;
 }
 
 /* backcards */
 .port3, .port4, .fresque2, .promenade1{
-    box-shadow: 2px 0px 0px 2px #872318;
+    box-shadow: 4px 4px 8px 4px #872318;
     border-radius: 20%;
 }
 
