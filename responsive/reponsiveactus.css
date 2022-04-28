@@ -88,6 +88,22 @@
         cursor: pointer;
         transition: all 1s ease-in-out;
     }
+    input.bifton{
+        background-color: #13B0F5;
+        color: #872318;
+        width: 9vh;
+        border: none;
+        border-radius: 10px;
+        font-size: 0.7em;
+        cursor: pointer;
+        margin-top: 65%;
+        margin-bottom: 2%;
+        box-shadow: 1px 1px 2px 1px #A63A31;
+        transition: all 1s ease-in-out;
+        z-index: 1;
+        position: relative;
+        left: 25%;
+    }
     main{
         padding: 30px;
         display: flex;
