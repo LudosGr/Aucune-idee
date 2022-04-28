@@ -50,14 +50,12 @@ main{
 }
 .incard{
     box-shadow: 5px 10px 20px 5px #872318;
+    margin-left: 2%;
+    margin-top: 5%;
 }
 .incard:hover{
     border-radius: 20%;
     box-shadow: 5px 10px 20px 5px #872318;
-}
-.frontcard{
-    margin-left: 2%;
-    margin-top: 5%;
 }
 
 @keyframes flip{
@@ -104,8 +102,9 @@ main{
     box-shadow: 5px 10px 20px 5px #872318;
 }
 .flipcard2{
-    margin-left: 53%;
-    margin-top: -2%;
+    position: relative;
+    left: 53%;
+    top: -50%;
 }
 
 

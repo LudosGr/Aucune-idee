@@ -1,9 +1,6 @@
 @media screen and (max-width : 765px) {
-@import "./reponsiveactus.css";
-    body{
-        overflow-x: hidden;
-    }
-    
+    @import "./responsiveindex.css";
+
     header{
         width: 100%;
         height: 20vh;
@@ -74,10 +71,6 @@
     .mega-menu{
         display: none;
     }
-    #nav{
-        position: absolute;
-        left: 0;
-    }
     .nav input{
         background: #13B0F5;
         border: none;
@@ -89,53 +82,9 @@
         cursor: pointer;
         transition: all 1s ease-in-out;
     }
-    main{
-        padding: 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    iframe{
-        width: 300px;
-        height: 200px;
-    }
-    .voirplus{
-        background-color: #13B0F5;
-        color: #872318;
-        width: 15vh;
-        border: none;
-        border-radius: 10px;
-        font-size: 1em;
-        cursor: pointer;
-        margin-top: 65%;
-        margin-bottom: 2%;
-        box-shadow: 1px 1px 2px 1px #A63A31;
-        transition: all 1s ease-in-out;
-        z-index: 1;
+    #nav{
+        position: absolute;
+        left: 0;
     }
 
-    .meteo{
-        margin-top: 15%;
-
-    }
-    footer{
-        width: 100%;
-        height: 30vh;
-        background: #058387;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: column;
-    }
-    footer img{
-        width: 50px;
-    }
-    footer div.carre{
-        width: 200px;
-        height: 80px;
-        background: #13B0F5;
-    }
-    .logo img{
-        border-radius: 50%;
-    }
 }

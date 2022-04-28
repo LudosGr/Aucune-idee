@@ -28,6 +28,10 @@
         border-radius: 10px;
         color: #A63A31;
     }
+    #nav{
+        position: absolute;
+        left: 0;
+    }
     nav{
         display: flex;
         flex-direction: column;
