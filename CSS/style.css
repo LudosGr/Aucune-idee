@@ -74,6 +74,7 @@ header input:hover{
     background: #13B0F5;
     box-shadow: #872318 1px 1px 2px 1px;
     transition: 0.8s ease;
+    border-radius: 10px;
 }
 .mega-menu a:hover {
     background: #872318;
