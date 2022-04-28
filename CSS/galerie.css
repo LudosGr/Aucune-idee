@@ -1,8 +1,9 @@
 
-
+body{
+	overflow-x: hidden;
+}
 
 label {
-	background: #444;
 	color: #fff;
 	transition: transform 400ms ease-out;
 	display: inline-block;
@@ -12,6 +13,9 @@ label {
 	z-index: 1;
 	text-align: center;
 	line-height: 100vh;
+	background: linear-gradient(60deg, #058387, transparent, #00D4FF);
+	background-size: cover;
+	font-size: 3rem;
 }
 
 form {
@@ -23,6 +27,7 @@ form {
 input {
 	position: absolute;
     z-index: -10;
+	
 }
 
 
@@ -52,12 +57,6 @@ input:nth-of-type(3):checked ~ label {
 
 input:nth-of-type(4):checked ~ label {
 	transform: translate3d(-300%, 0, 0);
-}
-
-label {
-	background: #058387;
-	background-size: cover;
-	font-size: 3rem;
 }
 
 

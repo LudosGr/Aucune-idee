@@ -64,7 +64,7 @@ main{
     margin-top: 20px;
     grid-area:  2 / 1 / 3 / 3;
     height: 700px;
-    background: linear-gradient(60deg, #058387, transparent, #00D4FF);;
+    background: linear-gradient(60deg, #058387, transparent, #00D4FF);
 }
 .textehotel2{
     background: url(../photorefaite/fond\ texte\ hébergement.jpg);
