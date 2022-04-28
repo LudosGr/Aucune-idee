@@ -18,16 +18,12 @@ main{
 }
 
 
-
+/*background: linear-gradient(120deg, #058387, #00D4FF);*/
 /* 1er block */
 .hotel1{
     grid-area: 1 / 1 / 2 / 3;
-    border: 2px solid blue;
-    background: #058387;
+    background: linear-gradient(60deg, #058387, transparent, #00D4FF);
     height: 700px;
-}
-.hotel2{
-    background: #058387;
 }
 .hotel1photo{
     margin-top: 10%;
@@ -40,12 +36,11 @@ main{
     width: 50%;
     margin-left: 30.2%;
     margin-top: -10%;
-    border: 2px solid red;
 }
 .textehotel1{
     background: url(../photorefaite/fond\ texte\ hébergement.jpg);
     background-size: cover;
-    box-shadow: 5px 10px 20px 5px #872318;
+    box-shadow: 2px 2px 4px 2px #872318;
     color: #872318;
     width: 50%;
     text-align: center;
@@ -53,9 +48,14 @@ main{
     margin-left: 48%;
     margin-top: -300px;
 }
-
+.incard{
+    box-shadow: 5px 10px 20px 5px #872318;
+}
+.incard:hover{
+    border-radius: 20%;
+    box-shadow: 5px 10px 20px 5px #872318;
+}
 .frontcard{
-    animation: flip 3s alternate infinite;
     margin-left: 2%;
     margin-top: 5%;
 }
@@ -64,7 +64,7 @@ main{
     0%{
         box-shadow: 5px 10px 20px 5px #13B0F5;
     }
-
+    
     100%{
         box-shadow: 5px 10px 20px 5px #058387;
     }
@@ -72,8 +72,10 @@ main{
 
 /* 2ème block */
 .hotel2{
+    margin-top: 20px;
     grid-area:  2 / 1 / 3 / 3;
     height: 700px;
+    background: linear-gradient(60deg, #058387, transparent, #00D4FF);;
 }
 .textehotel2{
     background: url(../photorefaite/fond\ texte\ hébergement.jpg);
@@ -94,7 +96,13 @@ main{
     margin-top: -15%;
     border-radius: 10% 10%;
 }
-
+.incard2{
+    box-shadow: 5px 10px 20px 5px #872318;
+}
+.incard2:hover{
+    border-radius: 20%;
+    box-shadow: 5px 10px 20px 5px #872318;
+}
 .flipcard2{
     margin-left: 53%;
     margin-top: -2%;
