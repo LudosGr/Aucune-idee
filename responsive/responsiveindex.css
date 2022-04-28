@@ -6,7 +6,7 @@
     
     header{
         width: 100%;
-        height: 20vh;
+        height: 100%;
         background: #058387;
         display: flex;
         justify-content: space-around;
@@ -145,7 +145,7 @@
     }
     footer{
         width: 100%;
-        height: 30vh;
+        height: 500px;
         background: #058387;
         display: flex;
         justify-content: space-around;
@@ -157,10 +157,18 @@
     }
     footer div.carre{
         width: 200px;
-        height: 80px;
+        margin-top: -20%;
+        font-size: 0.8em;
         background: #13B0F5;
     }
     .logo img{
         border-radius: 50%;
+        margin-top: -90%;
     }
+
+    .logoreseaux{
+        margin-top: -20%;
+    }
+
+    
 }
