@@ -57,9 +57,7 @@
         font-size: 0.8em;
         transition: 0.8s ease;
         color: #A63A31;
-        background: #13B0F5;
         border-radius: 5px;
-        box-shadow: 1px 0.2px 0.2px 1px #872318;
     }
     .crossleave{
         position: relative;
