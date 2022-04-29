@@ -4,14 +4,15 @@
     padding: 0;
 }
 body{
+    height: 100%;
     display: grid;
     grid-template: 20vh 60vh 20vh/ 10vw 1fr 1fr 1fr 1fr;
 }
 header{
     grid-row: 1;
-    grid-column-start: 2;
+    grid-column-start: 1;
     grid-column-end: 6;
-    background: chartreuse;
+    background: linear-gradient(120deg, #058387, transparent, #00D4FF);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +20,7 @@ header{
 nav{
     height: 100%;
     width: 10vw;
-    background: orange;
+    background: linear-gradient(120deg, #058387, transparent, #00D4FF);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -28,18 +29,18 @@ nav{
 }
 main{
     grid-column: 2;
-    background-color: blue;
     grid-column-end: 6;
+    grid-row: 2;
+    grid-row-end: 4;
     display: grid;
     grid-template: 1fr 1fr / 1fr;
 }
 iframe{
-    background-color: aqua;
     grid-row: 1;
     grid-column-start: 1;
     grid-column-end: 2;
     width: 100%;
-    height: 100%;
+    height: 101%;
 }
 div.gal{
     grid-row: 2;
@@ -48,8 +49,8 @@ div.gal{
     color: aliceblue;
 }
 footer{
-    background: red;
-    grid-row: 3;
+    background: linear-gradient(120deg, #058387, transparent, #00D4FF);
+    grid-row: 4;
     grid-column-start: 2;
     grid-column-end: 6;
     display: flex;

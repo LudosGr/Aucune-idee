@@ -5,15 +5,16 @@
 }
 
 body{
+    height: 100%;
     display: grid;
     grid-template: 20vh 1fr 1fr 1fr 1fr 10vh/ 10vw 1fr 1fr 1fr 1fr;
 }
 
 header{
     grid-row: 1;
-    grid-column-start: 1;
+    grid-column-start: 2;
     grid-column-end: 6;
-    background: red;
+    background: linear-gradient(120deg, #058387, transparent, #00D4FF);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +22,7 @@ header{
 nav{
     height: 100%;
     width: 10vw;
-    background: orange;
+    background: linear-gradient(120deg, #058387, transparent, #00D4FF);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -250,8 +251,11 @@ main{
     box-shadow: 5px 10px 10px 5px #872318;
 }
 footer{
-    background: yellowgreen;
+    background: linear-gradient(120deg, #058387, transparent, #00D4FF);
     grid-row: 7;
     grid-column-start: 2;
     grid-column-end: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
