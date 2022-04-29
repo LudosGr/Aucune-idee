@@ -10,10 +10,11 @@ body{
 }
 header{
     grid-row: 1;
-    grid-column-start: 1;
+    grid-column-start: 2;
     grid-column-end: 6;
     background: linear-gradient(120deg, #058387, transparent, #00D4FF);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -26,6 +27,17 @@ nav{
     justify-content: space-around;
     align-items: center;
     position: fixed;
+}
+nav img{
+    width: 150px;
+}
+.mega-menu-main{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: transparent;
+    justify-content: space-around;
+    align-items: center;
 }
 main{
     grid-column: 2;
