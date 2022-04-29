@@ -34,10 +34,9 @@ main{
     grid-column-start: 2;
     grid-column-end: 6;
     grid-row-start: 2;
-    grid-row-end: 6;
+    grid-row-end: 7;
     background: url(../photorefaite/background\ resto.png);
     background-size: cover;
-    border: 2px solid black;
 }
 
 .resto1{
@@ -46,17 +45,14 @@ main{
     grid-column-end: 6;
     grid-row-start: 2;
     grid-row-end: 2;
-    background-color: azure;
 }
 /* flipcard1 */
 .flipcard1{
     grid-column-start: 1;
     grid-column-end: 2;
     width: 900px;
-    height: 615px;
+    height: 617px;
     align-items: center;
-    border: 2px solid black;
-    background: #872318;
 }
 
 .incard1{
@@ -82,7 +78,7 @@ main{
     box-shadow: 10px 0px 0px 10px grey;
 }
 .backcard1{
-    margin-top: -67%;
+    margin-top: -68.5%;
     margin-left: 3.5%;
     transform: rotateY(180deg);   
 }
@@ -139,7 +135,6 @@ main{
     width: 550px;
     margin-left: 55%;
     margin-top: -42%;
-    border: 2px solid red;
     transition: all 0.8s ease-in-out;
 }
 
@@ -153,17 +148,15 @@ main{
     grid-column-end: 6;
     grid-row-start: 3;
     grid-row-end: 3;
-    background-color:chartreuse;
 }
 /* flipcard2 */
 .flipcard2{
     grid-column-start: 2;
     width: 900px;
-    height: 6px;
+    height: 620px;
     margin-top: 0%;
+    margin-left: 12%;
     align-items: center;
-    border: 2px solid black;
-    background: #872318;
 }
 
 .incard2{
@@ -188,6 +181,7 @@ main{
     transform: rotate(180deg);
     box-shadow: 10px 0px 0px 10px grey;
 }
+
 .backcard2{
     margin-top: -67%;
     margin-left: 3.5%;
@@ -198,6 +192,7 @@ main{
     border: 2px solid black;
     width: 600px;
     height: 600px;
+    margin-top: -2%;
     border-radius: 500px;
 }
 
@@ -213,26 +208,25 @@ main{
     transition: all 1.5s ease-in-out;
 }
 
-.cercle3{
-    position: relative;
+
+
+.flipcard2:hover .cercle4:hover{
+    transform: rotate(180deg);
+    background: url(../photorefaite/Resto\ planète\ océan.png);
+    background-size: cover;
+    box-shadow: 10px 0px 0px 10px grey inset;
+}
+.cercle4{
     height: 450px;
     width: 450px;
-    left: 12%;
-    top: 12%;
-    background-image: url(../photorefaite/Restoauxpécheursjpg.png);
+    margin-left: 12%;
+    margin-top: 12%;
+    background-image: url(../photorefaite/Resto\ planète\ océan.png);
     background-size: cover;
     border-radius: 500px;
     border: 2px solid black;
     transition: all 1.5s ease-in-out;
 }
-
-.flipcard2:hover .cercle4:hover{
-    transform: rotate(360deg);
-    background: url(../photorefaite/Restoauxpécheursjpg.png);
-    background-size: cover;
-    box-shadow: 10px 0px 0px 10px grey inset;
-}
-
 .menu2{
     display: grid;
 }
@@ -243,7 +237,6 @@ main{
     grid-row-end: 2;
     height: 620px;
     width: 100%;
-    border: 2px solid red;
     transition: all 0.8s ease-in-out;
 }
 
